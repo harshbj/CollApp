@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    tools:context="com.example.harsh.homedashboard.ContactUs">
+
+
+
+    <ImageView
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:layout_marginTop="40dp"
+    android:src="@drawable/vcet1"
+    android:background="#97e9e6e0"/>
+    <TextView
+        android:id="@+id/button_so"
+        android:text="Click Here To Contact"
+        android:textSize="20dp"
+        android:onClick="goToSo"
+        android:shadowColor="@color/colorAccent"
+        android:linksClickable="true"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:clickable="true"
+        android:autoLink="web"
+        android:cursorVisible="true"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+    <View
+        android:id="@+id/button_su"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:onClick="goToSu"
+        android:background="@drawable/fb"/>
+    <View
+        android:id="@+id/button_si"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:onClick="goToSi"
+        android:background="@drawable/instagram"/>
+
+</LinearLayout>
+
+
+
+</LinearLayout>
